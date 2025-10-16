@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <title>Marc Bassil</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon_1.ico" type="image/x-icon">
+
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <main class="main main--home" >
+      <canvas class="noise" id="noise"></canvas>
+      <div class="header">
+        <div class="header__left">
+          <div class="header__letter">M</div>
+          <div class="header__socials"><a href="" target="_blank">
+              <svg>
+              <img src="img/BE.png" alt="">
+              </svg></a><a href="" target="_blank">
+              <svg>
+                <use xlink:href="./svg/sprite.svg#inst"></use>
+              </svg></a><a href="" target="_blank">
+              <svg>
+                <use xlink:href="./svg/sprite.svg#in"></use>
+              </svg></a></div>
+        </div>
+        <div class="header__right">
+          <ul class="header__menu">
+            <li class="active"><a class="js-scroll-link" href="javascript:;" data-link="0">HOME</a></li>
+            <li><a class="js-scroll-link" href="javascript:;" data-link="1">Projects</a></li>
+            <li><a class="js-scroll-link" href="javascript:;" data-link="2">Certifications</a></li>
+            <li><a class="js-scroll-link" href="javascript:;" data-link="3">Clients</a></li>
+            
+            <li><a class="js-scroll-link" href="javascript:;" data-link="5">Previews</a></li>
+            <li><a class="js-scroll-link" href="javascript:;" data-link="6">CONTACT</a></li>
+          </ul>
+          <div class="header__phone"><a href="tel:+971506938656">+971 50 6938 656</a></div>
+        </div>
+        <div id="toggleMenu">
+          <button>☰</button>
+        </div>
+      </div>
+      <div class="scroll">
+        <div class="home-page">
+          <div class="page-title show">
+            <ul>
+              <li>
+                <div class="title">Marc Bassil</div>
+                <div class="small">Creative Art Specialist</div>
+              </li>
+              <li>
+                <div class="title">Portfolio</div>
+                <div class="number">Recent</div>
+              </li>
+              <li>
+                <div class="title">Certifications</div>
+                <div class="number"></div>
+              </li>
+              <li>
+                <div class="title">Clients</div>
+                <div class="number">Top Tiers</div>
+              </li>
+              <li>
+                <div class="title"></div>
+                <div class="number"></div>
+              </li>
+              <li>
+                <div class="title">Previews</div>
+                <div class="number"></div>
+              </li>
+              <li>
+                <div class="title">contact</div>
+                <div class="number"></div>
+              </li>
+            </ul>
+            <canvas class="noise noise--inner" id="noise_menu"></canvas>
+          </div>
+
+
+
+
+
+         <div class="scrollable" id="hireme">
+            <section class="contacts">
+              <div class="sticky-title">
+              <ul>
+                  <li>
+                    <!-- <div>contact</div> -->
+                    <!-- <div>6.0</div> -->
+                  </li>
+                </ul>
+				</div>
+              <div class="content">
+                <div class="content__left">
+                  <div class="content__title">
+                    <div class="h1">get to know me </div>
+                    <div class="small"></div>
+                  </div>
+                  <ul class="content__menu contacts__menu">
+                    <li class="active"><a class="noicon" href="javascript:;" onclick="window.open('mailto:info@marcbassil.com')">mail: Info@marcbassil.com</a></li>
+                    <li class="active"><a class="noicon" href="javascript:;" onclick="window.open('https://www.instagram.com/trademarcstudio/')">Instagram: @trademarcstudio</a></li>
+                    <li class="active"><a href="https://behance.net/marcbassil" target="_blank">www.behance.net/marcbassil</a></li>
+                    
+                  </ul>
+                  <div class="contacts__copyright small">© marcbassil - <span id="copyrightyear"></span>.  All Rights Resevered</div>
+                </div>
+                <div class="content__right">
+                  <div class="content__subtitle">Let's grab a coffee and jump on <span>conversation</span> chat with me.</div>
+                  <form class="content__contacts contacts__form js-contact-form" method="post">
+                    <div class="content__brief">
+                      <div class="content__brief-title">
+                        
+                      </div>
+                    </div>
+                    <div class="content__form">
+                      <label class="content__form-input">
+                        <input type="text" name="name"><span class="content__form-placeholder">name</span>
+                      </label>
+                      <label class="content__form-input">
+                        <input type="email" name="emal" required=""><span class="content__form-placeholder">EMAIL *</span>
+                      </label>
+                      <label class="content__form-input">
+                        <input type="text" name="msg" required="" minlength="10"><span class="content__form-placeholder">MESSAGE *</span>
+                      </label>
+                      <div class="content__form-btn">
+                        <button class="btn btn--arrow" type="submit">
+                          <svg>
+                            <use xlink:href="./svg/sprite.svg#arrow"></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <script src="js/main.js"></script> -->
+     <script src="js/contact-us.main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    
+  </body>
+</html>
