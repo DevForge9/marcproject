@@ -746,7 +746,7 @@ $(window).on('load',function (){
                             case 0:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(0);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(0);
                                 tl51.progress(0);
@@ -758,7 +758,7 @@ $(window).on('load',function (){
                                 tl11.progress(0);
                                 tl1.progress(0);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(0).pause();
                                 tlTitle5.progress(0).pause();
                                 tlTitle4.progress(0).pause();
@@ -768,7 +768,7 @@ $(window).on('load',function (){
                             case 1:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(0);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(0);
                                 tl51.progress(0);
@@ -780,7 +780,7 @@ $(window).on('load',function (){
                                 tl11.progress(0);
                                 tl1.progress(1);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(0).pause();
                                 tlTitle5.progress(0).pause();
                                 tlTitle4.progress(0).pause();
@@ -790,7 +790,7 @@ $(window).on('load',function (){
                             case 2:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(0.25);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(0);
                                 tl51.progress(0);
@@ -802,7 +802,7 @@ $(window).on('load',function (){
                                 tl11.progress(1);
                                 tl1.progress(1);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(0).pause();
                                 tlTitle5.progress(0).pause();
                                 tlTitle4.progress(0).pause();
@@ -812,7 +812,7 @@ $(window).on('load',function (){
                             case 3:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(0.5);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(0);
                                 tl51.progress(0);
@@ -824,7 +824,7 @@ $(window).on('load',function (){
                                 tl11.progress(1);
                                 tl1.progress(1);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(0).pause();
                                 tlTitle5.progress(0).pause();
                                 tlTitle4.progress(1).pause();
@@ -834,7 +834,7 @@ $(window).on('load',function (){
                             case 4:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(0.75);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(0);
                                 tl51.progress(1);
@@ -846,7 +846,7 @@ $(window).on('load',function (){
                                 tl11.progress(1);
                                 tl1.progress(1);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(0).pause();
                                 tlTitle5.progress(1).pause();
                                 tlTitle4.progress(1).pause();
@@ -856,7 +856,7 @@ $(window).on('load',function (){
                             case 5:
                                 tlScrollLast.progress(0);
                                 tlScroll.progress(1);
-                                tl7.progress(0);
+                                // tl7.progress(0);
                                 tl61.progress(0);
                                 tl6.progress(1);
                                 tl51.progress(1);
@@ -868,7 +868,7 @@ $(window).on('load',function (){
                                 tl11.progress(1);
                                 tl1.progress(1);
 
-                                tlTitle7.progress(0).pause();
+                                // tlTitle7.progress(0).pause();
                                 tlTitle6.progress(1).pause();
                                 tlTitle5.progress(1).pause();
                                 tlTitle4.progress(1).pause();
@@ -878,7 +878,7 @@ $(window).on('load',function (){
                             case 6:
                                 tlScrollLast.progress(1);
                                 tlScroll.progress(1);
-                                tl7.progress(1);
+                                // tl7.progress(1);
                                 tl61.progress(1);
                                 tl6.progress(1);
                                 tl51.progress(1);
@@ -891,7 +891,7 @@ $(window).on('load',function (){
                                 tl1.progress(1);
 
 
-                                tlTitle7.progress(1).pause();
+                                // tlTitle7.progress(1).pause();
                                 tlTitle6.progress(1).pause();
                                 tlTitle5.progress(1).pause();
                                 tlTitle4.progress(1).pause();
@@ -1092,17 +1092,14 @@ const copyrightyear = document.getElementById("copyrightyear");
 copyrightyear.innerHTML = currentYear;
 
 
-// $(document).ready(function () {
-//    $("#toggleMenu").click(function(){
-//     console.log("btn clicked")
-//      $(".header__menu").toggleClass("active");
-//    })
-// });
+$(document).ready(function () {
+   $("#toggleMenu").click(function(){
+    console.log("btn clicked")
+     $(".header__menu").toggleClass("active");
+   })
+});
 
-let toggleBtn = document.getElementById("toggleMenu")
-toggleBtn.addEventListener("click",function(){
-    console.log("Ok clicked")
-})
+
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
