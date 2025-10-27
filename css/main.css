@@ -925,12 +925,14 @@ section.news .sticky-title {
           /* border-bottom: 1px solid rgba(230, 227, 217, 0.3); */
           padding: 5.33333vw; } }
     .home-page .content__right {
-      width: calc(100% - (36.927vw - 4.27083vw));
+      width: 100%;
       padding: 1.14583vw 1.14583vw;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+    /* left: 20%; */
+    }
       @media screen and (max-width: 768px) and (orientation: portrait) {
         .home-page .content__right {
           width: 100%;
