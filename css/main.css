@@ -302,7 +302,7 @@ body::-webkit-scrollbar-thumb {
       font-size: 4vw; } }
 
 .small2 {
-  font-size: 25.68px;
+  font-size: 20px;
     line-height: 35px; }
   @media screen and (max-width: 880px) and (orientation: portrait) {
     .small {
