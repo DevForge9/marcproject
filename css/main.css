@@ -1720,3 +1720,13 @@ section.projects.mobile-responsive-projects .content__title {
       margin-top: 13.33333vw; } }
 
 /*# sourceMappingURL=maps/main.css.map */
+.header__socials img {
+  width: 18px;   /* adjust as needed — try 18px or 22px for fine-tuning */
+  height: 18px;
+  vertical-align: middle;
+  transition: transform 0.2s ease;
+}
+
+.header__socials img:hover {
+  transform: scale(1.1); /* optional hover effect */
+}
